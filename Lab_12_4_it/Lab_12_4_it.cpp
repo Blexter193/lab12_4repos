@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-struct Node {
+struct Node
+{
     int data;
     Node* next;
 };
@@ -88,11 +89,11 @@ int main()
     
     if (isSorted(head))
     {
-        cout << "Список посортовано!" << endl;
+        cout << "Список відсортовано!" << endl;
     }
     else
     {
-        cout << "Список не посортовано!" << endl;
+        cout << "Список не відсортовано!" << endl;
     }
     
     return 0;
